@@ -1,0 +1,13 @@
+@import "../config/colors";
+
+.c-button {
+  margin-top: 10px;
+  background: $main-color;
+  color: $white-color;
+  font-size: 20px;
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+@import "../config/colors";
+@import "../config/variables";
+
+.c-product {
+  margin: $page-margin 0;
+  .c-product--visual {
+    .c-product--visual--main {
+      img {
+        width: 100%;
+      }
+    }
+    .c-product--visual--mini {
+      .c-product--visual--mini--image {
+        padding: 10px;
+        display: inline-block;
+        float: left;
+        width: 33%;
+        img {
+          border: 1px $main-color solid;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .c-product--info {
+    .c-product--info--item {
+      margin-bottom: 10px;
+    }
+  }
+}
