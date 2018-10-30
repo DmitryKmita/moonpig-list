@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/moonpig-list/precache-manifest.9ab8e6a588a13ad0b7ac836b97d93a18.js"
+  "/moonpig-list/precache-manifest.8cf59aa4a6c8ff833e2619123ffc42b7.js"
 );
 
 workbox.clientsClaim();
